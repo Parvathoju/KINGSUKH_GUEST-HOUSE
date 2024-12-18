@@ -1,0 +1,77 @@
+<!Doctype html>
+<head><title>KINGSUKH GUEST HOUSE</title></head>
+<body>
+<header>
+<a href="index.html">
+<img src="logo.jpg"alt="kingsukh guest house" title="kingsukh guest house-master your life">
+</a>
+</header>
+<hr>
+<nav>
+<table cellspacing="5" cellpadding="5">
+<tr>
+<td><a href="index.html">Home</a></td>
+<td><a href="about us.html">About us</a></td>
+<td><a href="rooms.html">rooms</a></td>
+<td><a href="services.html">services</a></td>
+<td><a href="login.html">login</a></td>
+<td><a href="contact us.html">contact us</a></td>
+<td><a href="Book.html">Book</a></td>
+</tr>
+</table
+<head>
+	<title>Room Booking Form</title>
+</head>
+<body>
+	<h1>King Sukh Guest House</h1>
+	<h2>Room Booking Form</h2>
+	
+	<form id="booking-form">
+		<!-- Check-in and Check-out dates-->
+		<label for="check-in-date">Check-in Date:</label>
+		<input type="date" id="check-in-date" name="check-in-date" required><br>
+		
+		<label for="check-out-date">Check-out Date:</label>
+		<input type="date" id="check-out-date" name="check-out-date" required><br>
+		
+		<!--Room type and number of guests -->
+		<label for="room-type">Room Type:</label>
+		<select id="room-type" name="room-type" required>
+			<option value="">Select Room Type</option>
+			<option value="Deluxe">Deluxe</option>
+			<option value="Standard">Standard</option>
+			<option value="Family">Family</option>
+		</select><br>
+
+		
+		<label for="number-of-guests">Number of Guests:</label>
+		<input type="number" id="number-of-guests" name="number-of-guests" required><br>
+		
+		<!-- Guest details -->
+		<label for="guest-name">
+Guest Name:</label><br>
+		<input type="text" id="guest-name" name="guest-name" required><br>
+		
+		<label for="guest-email">Guest Email:</label>
+		<input type="email" id="guest-email" name="guest-email" required><br>
+		
+		<label for="guest-phone">Guest Phone:</label>
+		<input type="tel" id="guest-phone" name="guest-phone" required><br>
+		
+		<!-- Payment details -->
+		<label for="payment-method">Payment Method:</label>
+		<select id="payment-method" name="payment-method" required>
+			<option value="">Select Payment Method</option>
+			<option value="credit-card">Credit Card</option>
+			<option value="paypal">PayPal</option>
+			<option value="bank-transfer">Bank Transfer</option>
+		</select>
+		
+		<!-- Submit button -->
+		<button type="submit">Book Now</button>
+<p style="text-align:center;"><strong>THANK YOU</p></strong>
+
+
+	</form>
+</body>
+</html>
